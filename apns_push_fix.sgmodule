@@ -1,0 +1,7 @@
+#!name = APNS推送修复
+#!desc = 修复中国大陆海外应用推送通知——单独代理APNs域名
+
+[Rule]
+DOMAIN,push.apple.com,PROXY
+DOMAIN,courier.push.apple.com,PROXY
+DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
